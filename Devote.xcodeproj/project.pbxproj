@@ -16,6 +16,7 @@
 		5C03161228E34016005FAEC0 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C03160F28E34016005FAEC0 /* sound-tap.mp3 */; };
 		5C03161328E34016005FAEC0 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C03161028E34016005FAEC0 /* sound-ding.mp3 */; };
 		5C03161428E34016005FAEC0 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C03161128E34016005FAEC0 /* sound-rise.mp3 */; };
+		5C38F60028E5E5C200B31FE0 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38F5FF28E5E5C200B31FE0 /* HideKeyboardExtension.swift */; };
 		5C3F55B628E48BAC00DFAE5F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3F55B528E48BAC00DFAE5F /* Constant.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		5C03161028E34016005FAEC0 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		5C03161128E34016005FAEC0 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
 		5C03161B28E340E0005FAEC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5C38F5FF28E5E5C200B31FE0 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		5C3F55B528E48BAC00DFAE5F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +124,7 @@
 		5C03161928E3407C005FAEC0 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				5C38F5FF28E5E5C200B31FE0 /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				5C03160628E33F8D005FAEC0 /* Persistence.swift in Sources */,
 				5C0315FF28E33F8B005FAEC0 /* ContentView.swift in Sources */,
+				5C38F60028E5E5C200B31FE0 /* HideKeyboardExtension.swift in Sources */,
 				5C3F55B628E48BAC00DFAE5F /* Constant.swift in Sources */,
 				5C03160928E33F8D005FAEC0 /* Devote.xcdatamodeld in Sources */,
 				5C0315FD28E33F8B005FAEC0 /* DevoteApp.swift in Sources */,
