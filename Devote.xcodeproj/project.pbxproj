@@ -18,6 +18,7 @@
 		5C03161428E34016005FAEC0 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C03161128E34016005FAEC0 /* sound-rise.mp3 */; };
 		5C38F60028E5E5C200B31FE0 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38F5FF28E5E5C200B31FE0 /* HideKeyboardExtension.swift */; };
 		5C3F55B628E48BAC00DFAE5F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3F55B528E48BAC00DFAE5F /* Constant.swift */; };
+		5C8993D228FC1DF000513A19 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8993D128FC1DF000513A19 /* BackgroundImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		5C03161B28E340E0005FAEC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5C38F5FF28E5E5C200B31FE0 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		5C3F55B528E48BAC00DFAE5F /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5C8993D128FC1DF000513A19 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				5C0315FE28E33F8B005FAEC0 /* ContentView.swift */,
+				5C8993D128FC1DF000513A19 /* BackgroundImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C03160628E33F8D005FAEC0 /* Persistence.swift in Sources */,
+				5C8993D228FC1DF000513A19 /* BackgroundImageView.swift in Sources */,
 				5C0315FF28E33F8B005FAEC0 /* ContentView.swift in Sources */,
 				5C38F60028E5E5C200B31FE0 /* HideKeyboardExtension.swift in Sources */,
 				5C3F55B628E48BAC00DFAE5F /* Constant.swift in Sources */,
